@@ -1,5 +1,258 @@
 * {
+  font-family: Lora, sans-serif;
   margin: 0;
   padding: 0;
 }
 
+body , html {
+  background: rgb(244, 244, 244);
+  min-height: 100vh;
+}
+
+/* ------ HEADER ------ */
+.header {
+  align-items: center;
+  background-color: rgb(50, 167, 145);
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+}
+
+/* h1 */
+#trybewarts-header-title {
+  color: white;
+  font-size: 2.2em;
+}
+
+/* logo */
+.trybewarts-header-logo {
+  height: 60px;
+  padding: 5px 10px;
+}
+
+/* form */
+.trybewarts-login {
+  display: flex;
+  padding: 0 10px;
+}
+
+/* containers */
+.container-email , .container-password {
+  display: flex;
+}
+
+/* icons */
+#icon-email , #icon-password {
+  color: rgb(69, 147, 72);
+  font-size: 1.4em;
+  margin: 5px;
+}
+
+/* inputs */
+#input-email-header , #input-password-header {
+  border: 2px solid rgb(1, 191, 1);
+  border-radius: 8px;
+  height: 35px;
+  outline: none;
+  padding: 0 5px;
+  transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  width: 100px;
+}
+
+#input-email-header:focus , #input-password-header:focus {
+  box-shadow: 0 0 10px rgb(136, 136, 136);
+}
+
+/* botão */
+#btn-entrar {
+  align-items: center;
+  background: rgb(99, 9, 156);
+  border: 2px solid rgb(69, 11, 104);
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+  height: 39px;
+  margin-left: 8px;
+  transition: 0.4s;
+  width: 100px;
+}
+
+#btn-entrar:hover {
+  background: rgb(246, 240, 255);
+  box-shadow: 0 0 10px rgb(136, 136, 136);
+  color: rgb(99, 9, 156);
+}
+
+/* ------ MAIN ------ */
+.main {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+/* form */
+#trybewarts-main-title {
+  font-size: 1.2em;
+  margin: 20px 0 18px;
+}
+
+#evaluation-form {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-right: 60px;
+  width: 675px;
+}
+
+/* inputs */
+#input-name , #input-lastname {
+  border: none;
+  border-radius: 8px;
+  height: 30px;
+  outline: none;
+  padding: 0 5px;
+  width: 18rem;
+}
+
+#input-email {
+  width: 18rem;
+}
+
+#house {
+  width: 16rem;
+}
+
+/* inputs */
+#input-email , #house {
+  background-color: white;
+  border: none;
+  border-radius: 8px;
+  height: 35px;
+  margin-top: 20px;
+  outline: none;
+  padding: 0 5px;
+
+}
+
+#label-house {
+  font-weight: 500;
+}
+
+.linha {
+  border: 1px solid rgb(210, 210, 210);
+  margin: 10px;
+  width: 38.5rem;
+}
+
+/* família e conteúdo */
+.family-content {
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+}
+
+.container-label-content {
+  width: 340px;
+}
+
+#label-family , #label-content {
+  font-weight: 500;
+}
+
+#labels-tech {
+  margin-top: 10px;
+}
+
+/* radios de tech */
+#front-tech , #back-tech , #full-tech {
+  padding: 4px 0;
+}
+
+/* checks de conteúdo */
+.checks-content {
+  margin-top: 10px;
+}
+
+.hof-jest-promises , .react-sql-python {
+  padding: 7px 0;
+}
+
+/* container de avaliação */
+.container-evaluation {
+  display: flex;
+  font-weight: 500;
+  justify-content: space-between;
+  width: 600px;
+}
+
+.container-textarea {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+/* título do textarea */
+.textarea {
+  font-weight: 500;
+  margin: 10px 0;
+}
+
+/* textarea */
+#textarea {
+  border: none;
+  border-radius: 8px;
+  padding: 5px 45px 5px 5px;
+  resize: none;
+  outline: none;
+}
+
+/* contador */
+#counter {
+  bottom: 5px;
+  right: 18px;
+  position: absolute;
+}
+
+#label-infos , #info-check {
+  font-weight: 500;
+  margin: 10px 0;
+}
+
+/* botão enviar */
+#submit-btn {
+  align-items: center;
+  border-radius: 8px;
+  font-weight: 600;
+  height: 39px;
+  margin-left: 8px;
+  transition: 0.4s;
+  width: 35rem;
+}
+
+.btn-success {
+  background: rgb(99, 9, 156);
+  border: 2px solid rgb(69, 11, 104);
+  color: white;
+  cursor: pointer;
+}
+
+.btn-success:hover {
+  background: rgb(246, 240, 255);
+  box-shadow: 0 0 10px rgb(136, 136, 136);
+  color: rgb(99, 9, 156);
+}
+
+footer {
+  background: rgb(119, 119, 119);
+  color: white;
+  font-size: 0.8em;
+  margin-top: 18px;
+  padding: 5px 0;
+  text-align: center;
+}
+
+/* ------ LOGO ------ */
+#trybewarts-forms-logo {
+  height: 500px;
+}
