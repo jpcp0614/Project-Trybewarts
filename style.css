@@ -78,7 +78,7 @@ body {
 }
 
 #btn-entrar:hover {
-  background: white;
+  background: rgb(246, 240, 255);
   box-shadow: 0 0 10px rgb(136, 136, 136);
   color: rgb(99, 9, 156);
 }
@@ -209,11 +209,7 @@ body {
 /* botão enviar */
 #submit-btn {
   align-items: center;
-  background: rgb(99, 9, 156);
-  border: 2px solid rgb(69, 11, 104);
   border-radius: 8px;
-  color: white;
-  cursor: pointer;
   font-weight: 600;
   height: 39px;
   margin-left: 8px;
@@ -221,8 +217,15 @@ body {
   width: 35rem;
 }
 
-#submit-btn:hover {
-  background: white;
+.btn-success {
+  background: rgb(99, 9, 156);
+  border: 2px solid rgb(69, 11, 104);
+  color: white;
+  cursor: pointer;
+}
+
+.btn-success:hover {
+  background: rgb(246, 240, 255);
   box-shadow: 0 0 10px rgb(136, 136, 136);
   color: rgb(99, 9, 156);
 }

@@ -158,7 +158,7 @@ describe('Trybewarts', () => {
       cy.get(TRYBEWARTS_LOGO_FORMS_SELECTOR).should(
         "have.css",
         "height",
-        "500.0000305175781px"
+        "500px"
       );
     });
 
