@@ -67,13 +67,41 @@
             id="input-email"
             placeholder="Email"
           />
-          <label for="house">Casa:</label>
+          <label for="house" id="label-house">Casa:</label>
           <select name="house" id="house">
             <option value="Gitnória" id="gitnoria-house">Gitnória</option>
             <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
             <option value="Corvinode" id="corvinode-house">Corvinode</option>
             <option value="Pytherina" id="pytherina-house">Pytherina</option>
           </select>
+        </div>
+        <div id="linha"></div>
+        <div class="container-label-family">
+          <label for="family" id="label-family">Qual sua família?</label>
+          <div id="labels-tech">
+            <div id="front-tech">
+              <input
+                type="radio"
+                name="family"
+                value="Frontend"
+                id="frontend"
+              />
+              <label for="frontend">Família Frontend</label>
+            </div>
+            <div id="back-tech">
+              <input type="radio" name="family" value="Backend" id="backend" />
+              <label for="backend">Família Backend</label>
+            </div>
+            <div id="full-tech">
+              <input
+                type="radio"
+                name="family"
+                value="FullStack"
+                id="fulstack"
+              />
+              <label for="fullstack">Família FullStack</label>
+            </div>
+          </div>
         </div>
       </form>
       <img

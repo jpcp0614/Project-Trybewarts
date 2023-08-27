@@ -105,6 +105,7 @@ body {
   width: 675px;
 }
 
+/* inputs */
 #input-name , #input-lastname {
   border: none;
   border-radius: 8px;
@@ -114,6 +115,7 @@ body {
   width: 18rem;
 }
 
+/* inputs */
 #input-email , #house {
   background-color: white;
   border: none;
@@ -123,6 +125,29 @@ body {
   outline: none;
   padding: 0 5px;
   width: 17rem;
+}
+
+#label-house {
+  font-weight: 500;
+}
+
+#linha {
+  border: 1px solid rgb(210, 210, 210);
+  margin: 10px;
+  width: 38.5rem;
+}
+
+#label-family {
+  font-weight: 500;
+}
+
+#labels-tech {
+  margin-top: 10px;
+}
+
+/* radios de tech */
+#front-tech , #back-tech , #full-tech {
+  padding: 5px 0;
 }
 
 /* ------ LOGO ------ */
