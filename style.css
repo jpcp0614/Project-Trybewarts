@@ -4,7 +4,7 @@
   padding: 0;
 }
 
-/* HEADER */
+/* ------ HEADER ------ */
 .header {
   align-items: center;
   background-color: rgb(50, 167, 145);
@@ -77,4 +77,15 @@
   background: white;
   box-shadow: 0 0 10px rgb(136, 136, 136);
   color: rgb(99, 9, 156);
+}
+
+/* ------ MAIN ------ */
+.main {
+  display: flex;
+}
+
+/* form */
+#evaluation-form {
+  display: flex;
+  width: 675px;
 }
