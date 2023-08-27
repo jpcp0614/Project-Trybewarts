@@ -58,7 +58,7 @@ body {
   width: 100px;
 }
 
-#id-email-header:focus , #id-password-header:focus {
+#input-email-header:focus , #input-password-header:focus {
   box-shadow: 0 0 10px rgb(136, 136, 136);
 }
 
@@ -204,6 +204,27 @@ body {
 #label-infos , #info-check {
   font-weight: 500;
   margin: 12px 0;
+}
+
+/* botão enviar */
+#submit-btn {
+  align-items: center;
+  background: rgb(99, 9, 156);
+  border: 2px solid rgb(69, 11, 104);
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+  height: 39px;
+  margin-left: 8px;
+  transition: 0.4s;
+  width: 35rem;
+}
+
+#submit-btn:hover {
+  background: white;
+  box-shadow: 0 0 10px rgb(136, 136, 136);
+  color: rgb(99, 9, 156);
 }
 
 /* ------ LOGO ------ */
