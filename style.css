@@ -4,8 +4,9 @@
   padding: 0;
 }
 
-body {
+body , html {
   background: rgb(244, 244, 244);
+  min-height: 100vh;
 }
 
 /* ------ HEADER ------ */
@@ -88,13 +89,12 @@ body {
   align-items: center;
   display: flex;
   justify-content: center;
-  margin: 5vh 0;
 }
 
 /* form */
 #trybewarts-main-title {
   font-size: 1.2em;
-  margin: 28px 0 18px;
+  margin: 20px 0 18px;
 }
 
 #evaluation-form {
@@ -109,7 +109,7 @@ body {
 #input-name , #input-lastname {
   border: none;
   border-radius: 8px;
-  height: 35px;
+  height: 30px;
   outline: none;
   padding: 0 5px;
   width: 18rem;
@@ -183,7 +183,6 @@ body {
   display: flex;
   font-weight: 500;
   justify-content: space-between;
-  margin: 10px 0;
   width: 600px;
 }
 
@@ -198,12 +197,14 @@ body {
 #comments {
   border: none;
   border-radius: 8px;
+  padding: 5px;
   resize: none;
+  outline: none;
 }
 
 #label-infos , #info-check {
   font-weight: 500;
-  margin: 12px 0;
+  margin: 10px 0;
 }
 
 /* botão enviar */
@@ -228,6 +229,15 @@ body {
   background: rgb(246, 240, 255);
   box-shadow: 0 0 10px rgb(136, 136, 136);
   color: rgb(99, 9, 156);
+}
+
+footer {
+  background: rgb(119, 119, 119);
+  color: white;
+  font-size: 0.8em;
+  margin-top: 18px;
+  padding: 5px 0;
+  text-align: center;
 }
 
 /* ------ LOGO ------ */
