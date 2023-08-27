@@ -186,20 +186,32 @@ body , html {
   width: 600px;
 }
 
+.container-textarea {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
 /* título do textarea */
 .textarea {
-  align-self: flex-start;
   font-weight: 500;
-  margin: 10px 0 10px 38px;
+  margin: 10px 0;
 }
 
 /* textarea */
-#comments {
+#textarea {
   border: none;
   border-radius: 8px;
-  padding: 5px;
+  padding: 5px 45px 5px 5px;
   resize: none;
   outline: none;
+}
+
+/* contador */
+#counter {
+  bottom: 5px;
+  right: 18px;
+  position: absolute;
 }
 
 #label-infos , #info-check {
