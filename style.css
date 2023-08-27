@@ -131,13 +131,24 @@ body {
   font-weight: 500;
 }
 
-#linha {
+.linha {
   border: 1px solid rgb(210, 210, 210);
   margin: 10px;
   width: 38.5rem;
 }
 
-#label-family {
+/* família e conteúdo */
+.family-content {
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+}
+
+.container-label-content {
+  width: 340px;
+}
+
+#label-family , #label-content {
   font-weight: 500;
 }
 
@@ -147,7 +158,16 @@ body {
 
 /* radios de tech */
 #front-tech , #back-tech , #full-tech {
-  padding: 5px 0;
+  padding: 4px 0;
+}
+
+/* checks de conteúdo */
+.checks-content {
+  margin-top: 10px;
+}
+
+.hof-jest-promises , .react-sql-python {
+  padding: 7px 0;
 }
 
 /* ------ LOGO ------ */

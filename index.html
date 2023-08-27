@@ -75,34 +75,58 @@
             <option value="Pytherina" id="pytherina-house">Pytherina</option>
           </select>
         </div>
-        <div id="linha"></div>
-        <div class="container-label-family">
-          <label for="family" id="label-family">Qual sua família?</label>
-          <div id="labels-tech">
-            <div id="front-tech">
-              <input
-                type="radio"
-                name="family"
-                value="Frontend"
-                id="frontend"
-              />
-              <label for="frontend">Família Frontend</label>
+        <div class="linha"></div>
+        <div class="family-content">
+          <div class="container-label-family">
+            <label for="family" id="label-family">Qual sua família?</label>
+            <div id="labels-tech">
+              <div id="front-tech">
+                <input
+                  type="radio"
+                  name="family"
+                  value="Frontend"
+                  id="frontend"
+                />
+                <label for="frontend">Família Frontend</label>
+              </div>
+              <div id="back-tech">
+                <input type="radio" name="family" value="Backend" id="backend" />
+                <label for="backend">Família Backend</label>
+              </div>
+              <div id="full-tech">
+                <input
+                  type="radio"
+                  name="family"
+                  value="FullStack"
+                  id="fulstack"
+                />
+                <label for="fullstack">Família FullStack</label>
+              </div>
             </div>
-            <div id="back-tech">
-              <input type="radio" name="family" value="Backend" id="backend" />
-              <label for="backend">Família Backend</label>
-            </div>
-            <div id="full-tech">
-              <input
-                type="radio"
-                name="family"
-                value="FullStack"
-                id="fulstack"
-              />
-              <label for="fullstack">Família FullStack</label>
+          </div>
+          <div class="container-label-content">
+            <label for="" id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
+            <div class="checks-content">
+              <div class="hof-jest-promises">
+                <input type="checkbox" name="hofs" id="hofs" value="HoFs">
+                <label for="hofs">HoFs</label>
+                <input type="checkbox" name="jest" id="jest" value="Jest">
+                <label for="jest">Jest</label>
+                <input type="checkbox" name="promises" id="promises" value="Promises">
+                <label for="promises">Promises</label>
+              </div>
+              <div class="react-sql-python">
+                <input type="checkbox" name="react" id="react" value="React">
+                <label for="react">React</label>
+                <input type="checkbox" name="sql" id="sql" value="SQL">
+                <label for="sql">SQL</label>
+                <input type="checkbox" name="python" id="python" value="Python">
+                <label for="python">Python</label>
+              </div>
             </div>
           </div>
         </div>
+        <div class="linha"></div>
       </form>
       <img
         src="images/trybewarts-colored.svg"
