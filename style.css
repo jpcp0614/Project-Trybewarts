@@ -170,6 +170,14 @@ body {
   padding: 7px 0;
 }
 
+/* container de avaliação */
+.container-evaluation {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  width: 600px;
+}
+
 /* ------ LOGO ------ */
 #trybewarts-forms-logo {
   height: 500px;
