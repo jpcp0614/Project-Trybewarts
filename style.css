@@ -1,15 +1,75 @@
 * {
+  font-family: Lora, sans-serif;
   margin: 0;
   padding: 0;
 }
 
+/* HEADER */
 .header {
   background-color: rgb(50, 167, 145);
   display: flex;
+  justify-content: space-between;
   height: 70px;
 }
 
+/* LOGO */
 .trybewarts-header-logo {
   height: 60px;
-  padding: 5px;
+  padding: 5px 10px;
+}
+
+/* FORM DO HEADER */
+.trybewarts-login {
+  align-items: center;
+  display: flex;
+  padding: 0 10px;
+}
+
+/* containers */
+.container-email , .container-password {
+  align-items: center;
+  display: flex;
+}
+
+/* icons */
+#icon-email , #icon-password {
+  color: rgb(69, 147, 72);
+  font-size: 1.4em;
+  margin: 5px;
+}
+
+/* inputs */
+#input-email , #input-password {
+  border: 2px solid rgb(1, 191, 1);
+  border-radius: 8px;
+  height: 35px;
+  outline: none;
+  padding: 0 5px;
+  transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  width: 100px;
+}
+
+#id-email:focus , #id-password:focus {
+  box-shadow: 0 0 10px rgb(136, 136, 136);
+}
+
+/* botão */
+#btn-entrar {
+  align-items: center;
+  background: rgb(99, 9, 156);
+  border: 2px solid rgb(69, 11, 104);
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+  height: 39px;
+  margin-left: 8px;
+  transition: 0.4s;
+  width: 100px;
+}
+
+#btn-entrar:hover {
+  background: white;
+  box-shadow: 0 0 10px rgb(136, 136, 136);
+  color: rgb(99, 9, 156);
 }
