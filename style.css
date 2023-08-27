@@ -6,28 +6,33 @@
 
 /* HEADER */
 .header {
+  align-items: center;
   background-color: rgb(50, 167, 145);
   display: flex;
   justify-content: space-between;
   height: 70px;
 }
 
-/* LOGO */
+/* h1 */
+#trybewarts-header-title {
+  color: white;
+  font-size: 2.2em;
+}
+
+/* logo */
 .trybewarts-header-logo {
   height: 60px;
   padding: 5px 10px;
 }
 
-/* FORM DO HEADER */
+/* form */
 .trybewarts-login {
-  align-items: center;
   display: flex;
   padding: 0 10px;
 }
 
 /* containers */
 .container-email , .container-password {
-  align-items: center;
   display: flex;
 }
 
