@@ -44,7 +44,7 @@
 }
 
 /* inputs */
-#input-email , #input-password {
+#input-email-header , #input-password-header {
   border: 2px solid rgb(1, 191, 1);
   border-radius: 8px;
   height: 35px;
@@ -54,7 +54,7 @@
   width: 100px;
 }
 
-#id-email:focus , #id-password:focus {
+#id-email-header:focus , #id-password-header:focus {
   box-shadow: 0 0 10px rgb(136, 136, 136);
 }
 
@@ -85,6 +85,10 @@
 }
 
 /* form */
+#trybewarts-main-title {
+  font-size: 1.2em;
+}
+
 #evaluation-form {
   display: flex;
   flex-direction: column;
