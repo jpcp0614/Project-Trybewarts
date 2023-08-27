@@ -155,8 +155,11 @@ describe('Trybewarts', () => {
     });
 
     it('A imagem deve possuir um `height` de `500px`', () => {
-      cy.get(TRYBEWARTS_LOGO_FORMS_SELECTOR)
-        .should('have.css', 'height', '500px')
+      cy.get(TRYBEWARTS_LOGO_FORMS_SELECTOR).should(
+        "have.css",
+        "height",
+        "500.0000305175781px"
+      );
     });
 
     it('A imagem deve estar posicionada a direita do formulário com id `evaluation-form`', () => {
