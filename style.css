@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+body {
+  background: rgb(237, 237, 237);
+}
+
 /* ------ HEADER ------ */
 .header {
   align-items: center;
@@ -81,20 +85,36 @@
 
 /* ------ MAIN ------ */
 .main {
+  align-items: center;
   display: flex;
+  justify-content: center;
+  margin: 5vh 0;
 }
 
 /* form */
 #trybewarts-main-title {
   font-size: 1.2em;
+  margin: 28px 0 18px;
 }
 
 #evaluation-form {
+  align-items: center;
   display: flex;
   flex-direction: column;
+  margin-right: 60px;
   width: 675px;
 }
 
+#input-name , #input-lastname {
+  border: none;
+  border-radius: 8px;
+  height: 35px;
+  outline: none;
+  padding: 0 5px;
+  width: 18rem;
+}
+
+/* ------ LOGO ------ */
 #trybewarts-forms-logo {
   height: 500px;
 }
